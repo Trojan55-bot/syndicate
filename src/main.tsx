@@ -5,7 +5,7 @@ import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion, AnimatePresence} from 'framer-motion';
 import {useForm} from 'react-hook-form';
 import useEmblaCarousel from 'embla-carousel-react';
-import {ArrowRight, Award, Check, ChevronDown, Clock, Facebook, Instagram, Linkedin, Mail, MapPin, Menu, Moon, Phone, Search, Send, ShieldCheck, Sparkles, Sun, X, Youtube, Zap} from 'lucide-react';
+import {ArrowRight, Award, Check, ChevronDown, Clock, Mail, MapPin, Menu, Moon, Phone, Search, Send, ShieldCheck, Sparkles, Sun, X, Zap} from 'lucide-react';
 import {assets} from './assets';
 import './styles.css';
 
@@ -57,7 +57,7 @@ function BrandSlider(){const [ref]=useEmblaCarousel({loop:true,align:'start'});r
 function SkeletonLoaders(){return <div className="skeletonGrid" aria-hidden="true">{[1,2,3].map(i=><div className="skeleton" key={i}/>)}</div>}
 
 function Newsletter(){return <section className="newsletter"><div><p className="eyebrow">Newsletter</p><h2>Get product guides and offers</h2></div><input aria-label="Email address" placeholder="Email address"/><button className="btn">Subscribe</button></section>}
-function Footer(){return <footer><div className="footerBrand"><Link to="/" className="logo"><img src={assets.logo} alt="Modern Electricals logo"/><b>Modern Electricals</b></Link><p>Premium electrical supplies for homes, businesses, contractors and industry in Kenya.</p><div className="socials"><Facebook/><Instagram/><Linkedin/><Youtube/></div></div><div><h3>Quick Links</h3>{pages.map(p=><Link key={p} to={p==='Home'?'/':'/'+p.toLowerCase()}>{p}</Link>)}</div><div><h3>Products</h3>{products.map(p=><Link key={p.id} to={'/products/'+p.id}>{p.name}</Link>)}</div><div><h3>Services</h3>{services.slice(0,5).map(s=><Link key={s.slug} to={'/services/'+s.slug}>{s.title}</Link>)}</div><div className="footerMap"><Newsletter/><iframe title="Footer map" src="https://www.google.com/maps?q=Kisumu%20Kenya&output=embed"/></div><small>© 2026 Modern Electricals. All rights reserved.</small></footer>}
+function Footer(){return <footer><div className="footerBrand"><Link to="/" className="logo"><img src={assets.logo} alt="Modern Electricals logo"/><b>Modern Electricals</b></Link><p>Premium electrical supplies for homes, businesses, contractors and industry in Kenya.</p><div className="socials"><span>f</span><span>ig</span><span>in</span><span>yt</span></div></div><div><h3>Quick Links</h3>{pages.map(p=><Link key={p} to={p==='Home'?'/':'/'+p.toLowerCase()}>{p}</Link>)}</div><div><h3>Products</h3>{products.map(p=><Link key={p.id} to={'/products/'+p.id}>{p.name}</Link>)}</div><div><h3>Services</h3>{services.slice(0,5).map(s=><Link key={s.slug} to={'/services/'+s.slug}>{s.title}</Link>)}</div><div className="footerMap"><Newsletter/><iframe title="Footer map" src="https://www.google.com/maps?q=Kisumu%20Kenya&output=embed"/></div><small>© 2026 Modern Electricals. All rights reserved.</small></footer>}
 function Floaters(){return <><a className="float whatsFloat" href="https://wa.me/254700000000">WhatsApp</a><button className="float top" onClick={()=>scrollTo({top:0,behavior:'smooth'})}>↑</button><div className="cookie">We use cookies for a refined experience. <button>Accept</button></div></>}
 function App(){return <HelmetProvider><BrowserRouter><Suspense fallback={<div className="loader">Modern Electricals</div>}><Layout/></Suspense></BrowserRouter></HelmetProvider>}
 createRoot(document.getElementById('root')!).render(<App/>);
