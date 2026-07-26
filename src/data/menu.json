@@ -1,0 +1,14 @@
+[
+{"id":"latte","name":"Little Polo Latte","description":"Velvety espresso, steamed milk and caramel cloud foam.","price":320,"category":"Coffee","image":"coffee","available":true,"bestSeller":true},
+{"id":"americano","name":"Reserve Americano","description":"Bright single-origin espresso lengthened with hot water.","price":260,"category":"Coffee","image":"coffee","available":true},
+{"id":"tea","name":"Vanilla Chai Tea","description":"Black tea, warm spices, vanilla and steamed milk.","price":300,"category":"Tea","image":"coffee","available":true},
+{"id":"juice","name":"Mango Passion Juice","description":"Fresh mango and passion fruit pressed daily.","price":350,"category":"Fresh Juice","image":"food","available":true},
+{"id":"smoothie","name":"Berry Sunshine Smoothie","description":"Mixed berries, banana, yoghurt and chia.","price":420,"category":"Smoothies","image":"food","available":true},
+{"id":"shake","name":"Strawberry Dream Shake","description":"Creamy strawberry milkshake with whipped cream.","price":450,"category":"Milkshakes","image":"dessert","available":true,"bestSeller":true},
+{"id":"breakfast","name":"Polo Breakfast Board","description":"Eggs, toast, avocado, sausage, fruit and house jam.","price":850,"category":"Breakfast","image":"food","available":true},
+{"id":"lunch","name":"Grilled Chicken Bowl","description":"Herbed chicken, rice, greens, salsa and lemon dressing.","price":920,"category":"Lunch","image":"food","available":true},
+{"id":"panini","name":"Chicken Pesto Panini","description":"Toasted artisan bread, chicken, pesto and mozzarella.","price":680,"category":"Sandwiches","image":"food","available":true},
+{"id":"cheesecake","name":"Lotus Cheesecake","description":"Creamy cheesecake with biscuit crumble and coffee caramel.","price":390,"category":"Desserts","image":"dessert","available":true,"bestSeller":true},
+{"id":"waffles","name":"Rainbow Kids Waffles","description":"Mini waffles with fruit, chocolate dip and playful toppings.","price":520,"category":"Kids Menu","image":"dessert","available":true},
+{"id":"fries","name":"Truffle Fries Cup","description":"Crisp fries, parmesan dust and house aioli.","price":360,"category":"Snacks","image":"food","available":false}
+]

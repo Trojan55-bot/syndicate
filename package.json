@@ -12,9 +12,7 @@
     "react-router-dom": "latest",
     "framer-motion": "latest",
     "lucide-react": "latest",
-    "react-hook-form": "latest",
     "react-helmet-async": "latest",
-    "embla-carousel-react": "latest",
     "clsx": "latest"
   },
   "devDependencies": {}
